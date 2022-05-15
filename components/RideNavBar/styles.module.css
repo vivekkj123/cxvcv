@@ -1,0 +1,15 @@
+.RideNavbar{
+    display: flex;
+    justify-content: space-between;
+}
+.Tabbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+.Tabbar > *{
+    margin: 30px;
+}
+.filterBar{
+    margin: 20px;
+}

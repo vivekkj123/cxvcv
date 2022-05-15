@@ -1,0 +1,20 @@
+.Navbar{
+    background-color: #000;
+    height: 85px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_icon{
+    border-radius: 100%;
+}
+.User_details{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.User_details > *{
+    margin: 10px;
+}

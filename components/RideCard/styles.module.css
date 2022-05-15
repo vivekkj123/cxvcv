@@ -1,0 +1,23 @@
+.RideCard {
+  display: flex;
+  overflow: hidden;
+  /* justify-content: space-between; */
+  background-color: #171717;
+  height: 250px;
+  border-radius: 10px;
+  margin: 10px 40px;
+  padding: 20px;
+  align-items: center;
+}
+.map_image {
+  border-radius: 5px;
+}
+.Ride_Details{
+    margin: 5px 40px;
+}
+.Ride_Details > p {
+  color: #cfcfcf;
+}
+.Ride_Details > p > span {
+  color: #fff;
+}
