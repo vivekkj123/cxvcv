@@ -1,10 +1,10 @@
 import react from "react";
-import Navbar from "../components/Navbar";
-import RideCard from "../components/RideCard";
-import RideNavbar from "../components/RideNavBar";
-import styles from "../styles/Home.module.css";
+import Navbar from "../../components/Navbar";
+import RideCard from "../../components/RideCard";
+import RideNavbar from "../../components/RideNavBar";
+import styles from "../../styles/Home.module.css";
 
-export default function Home({ ridesjson, userjson }) {
+export default function Past({ ridesjson, userjson }) {
   const [UpcomingRides, setUpcomingRides] = react.useState([]);
   const [PastRides, setPastRides] = react.useState([]);
   react.useEffect(() => {
@@ -21,7 +21,7 @@ export default function Home({ ridesjson, userjson }) {
   return (
     <div className={styles.Home}>
       <Navbar user={userjson} />
-      <RideNavbar active='nearest'/>
+      <RideNavbar active='past'/>
       <div className={styles.container}>
         {ridesjson.map((ride) => (
           <RideCard ride={ride} station={userjson.station_code} key={ride.id} />

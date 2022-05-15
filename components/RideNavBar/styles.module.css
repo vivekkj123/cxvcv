@@ -9,7 +9,11 @@
 }
 .Tabbar > *{
     margin: 30px;
+    cursor: pointer;
 }
 .filterBar{
     margin: 20px;
+}
+.active{
+    border-bottom: 2px solid #fff;
 }
